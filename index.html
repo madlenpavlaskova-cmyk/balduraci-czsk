@@ -1,1 +1,385 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Balduráci CZ/SK</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0a0c;
+      color: #eee8dc;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 25px 8%;
+      border-bottom: 1px solid #3b3021;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: #c9a96e;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    nav a {
+      color: #aaa39a;
+      text-decoration: none;
+      margin-left: 25px;
+    }
+
+    nav a:hover {
+      color: #c9a96e;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 8%;
+      background:
+        radial-gradient(circle at center, #261c18 0%, #0b0a0c 60%);
+    }
+
+    .small-title {
+      color: #c9a96e;
+      letter-spacing: 4px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(55px, 9vw, 120px);
+      margin: 0;
+      line-height: 0.95;
+    }
+
+    h1 span {
+      color: #c9a96e;
+    }
+
+    .intro {
+      max-width: 650px;
+      color: #aaa39a;
+      font-size: 18px;
+      line-height: 1.7;
+      margin: 30px 0;
+    }
+
+    .button {
+      display: inline-block;
+      background: #c9a96e;
+      color: #17130d;
+      padding: 14px 22px;
+      text-decoration: none;
+      font-weight: bold;
+      width: fit-content;
+    }
+
+    .button:hover {
+      background: #e0c58d;
+    }
+
+    section {
+      padding: 100px 8%;
+      border-top: 1px solid #3b3021;
+    }
+
+    h2 {
+      font-size: 50px;
+      margin-top: 0;
+    }
+
+    h2 span {
+      color: #c9a96e;
+    }
+
+    .content {
+      max-width: 700px;
+      color: #aaa39a;
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .card {
+      border: 1px solid #3b3021;
+      padding: 30px;
+      background: #121014;
+    }
+
+    .card h3 {
+      color: #c9a96e;
+      font-size: 23px;
+    }
+
+    .card p {
+      color: #aaa39a;
+      line-height: 1.7;
+    }
+
+    footer {
+      padding: 30px 8%;
+      border-top: 1px solid #3b3021;
+      color: #6f6962;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        display: none;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      h2 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">BALDURÁCI CZ/SK</div>
+
+  <nav>
+    <a href="#komunita">Komunita</a>
+    <a href="#novacikovia">Nováčikovia</a>
+    <a href="#tim">Tím</a>
+  </nav>
+</header>
+
+
+<main>
+
+  <section class="hero">
+
+    <div class="small-title">
+      CZ/SK COMMUNITY · BALDUR'S GATE 3
+    </div>
+
+    <h1>
+      Vitaj v<br>
+      <span>Baldurákoch.</span>
+    </h1>
+
+    <p class="intro">
+      Miesto pre hráčov Baldur's Gate 3, kde môžeš nájsť
+      spoluhráčov, poradiť sa, zdieľať svoje dobrodružstvá
+      a jednoducho pokecať s ľuďmi, ktorí milujú Faerûn
+      rovnako ako ty.
+    </p>
+
+    <a
+      class="button"
+      href="https://discord.gg/7TFHCWK65X"
+      target="_blank">
+      PRIPOJIŤ SA NA DISCORD ↗
+    </a>
+
+  </section>
+
+
+  <section id="komunita">
+
+    <h2>
+      Malá komunita,<br>
+      <span>veľké dobrodružstvá.</span>
+    </h2>
+
+    <div class="content">
+
+      <p>
+        Balduráci CZ/SK sú komunitný Discord pre všetkých
+        fanúšikov Baldur's Gate 3.
+      </p>
+
+      <p>
+        Či si práve vytvoril svoju prvú postavu, alebo už poznáš
+        každý kút Faerûnu, si u nás vítaný.
+      </p>
+
+      <p>
+        Nájdeš u nás priestor na hľadanie spoluhráčov,
+        diskusie, screenshoty, achievementy, romance,
+        buildy, otázky aj obyčajný pokec.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section id="novacikovia">
+
+    <div class="small-title">
+      PRE NOVÁČIKOV
+    </div>
+
+    <h2>
+      Nevieš, čo ďalej?<br>
+      <span>Nie si v tom sám.</span>
+    </h2>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <h3>BG3 Mentor</h3>
+
+        <p>
+          Potrebuješ poradiť s classou, questom,
+          buildom alebo mechanikou?
+          Naši skúsení hráči ti pomôžu bez zbytočných spoilerov.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>Spoluhráči</h3>
+
+        <p>
+          Hľadáš partiu na novú kampaň,
+          Honour Mode alebo len niekoho,
+          s kým môžeš prebrať svojho Tav-a?
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>Komunita</h3>
+
+        <p>
+          Od buildov až po otázku,
+          prečo Astarion zase niečo vyviedol.
+          Miesto na všetko, čo patrí k BG3.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>Nové dobrodružstvá</h3>
+
+        <p>
+          Spoznaj ďalších CZ/SK hráčov,
+          nájdi novú partiu a zdieľaj svoje
+          dobrodružstvá z Faerûnu.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="tim">
+
+    <div class="small-title">
+      NÁŠ TÍM
+    </div>
+
+    <h2>
+      Ľudia za<br>
+      <span>Baldurákmi.</span>
+    </h2>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <h3>⚔ Steel Watchers</h3>
+
+        <p>
+          Naši moderátori. Dohliadajú na to,
+          aby Balduráci zostali príjemným
+          miestom pre všetkých.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>📜 PR & Partnerships</h3>
+
+        <p>
+          Hľadáme človeka, ktorý nám pomôže
+          budovať spolupráce a dostať
+          Balduráci CZ/SK medzi ďalších hráčov.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>🧙 BG3 Mentor</h3>
+
+        <p>
+          Skúsený hráč, ktorý pomáha nováčikom
+          a odpovedá na otázky týkajúce sa
+          Baldur's Gate 3.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section>
+
+    <h2>
+      Tvoja ďalšia<br>
+      <span>party čaká.</span>
+    </h2>
+
+    <a
+      class="button"
+      href="https://discord.gg/7TFHCWK65X"
+      target="_blank">
+      VSTÚPIŤ NA BALDURÁCI CZ/SK ↗
+    </a>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <span>© Balduráci CZ/SK</span>
+
+  <span>Made for adventurers.</span>
+
+</footer>
+
+</body>
+</html>
